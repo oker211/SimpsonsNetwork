@@ -13,6 +13,8 @@
 		C287E13126162C2E00399E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287E12F26162C2E00399E0C /* Main.storyboard */; };
 		C287E13326162C3000399E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C287E13226162C3000399E0C /* Assets.xcassets */; };
 		C287E13626162C3000399E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287E13426162C3000399E0C /* LaunchScreen.storyboard */; };
+		C287E13F26162C5200399E0C /* SimpsonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E13E26162C5200399E0C /* SimpsonsModel.swift */; };
+		C287E14226162C8700399E0C /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E14126162C8700399E0C /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C287E13226162C3000399E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C287E13526162C3000399E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C287E13726162C3000399E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C287E13E26162C5200399E0C /* SimpsonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsModel.swift; sourceTree = "<group>"; };
+		C287E14126162C8700399E0C /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C287E12926162C2E00399E0C /* AppDelegate.swift */,
 				C287E12B26162C2E00399E0C /* SceneDelegate.swift */,
 				C287E12D26162C2E00399E0C /* ViewController.swift */,
+				C287E14126162C8700399E0C /* NetworkingManager.swift */,
+				C287E13E26162C5200399E0C /* SimpsonsModel.swift */,
 				C287E12F26162C2E00399E0C /* Main.storyboard */,
 				C287E13226162C3000399E0C /* Assets.xcassets */,
 				C287E13426162C3000399E0C /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 				C287E12E26162C2E00399E0C /* ViewController.swift in Sources */,
 				C287E12A26162C2E00399E0C /* AppDelegate.swift in Sources */,
 				C287E12C26162C2E00399E0C /* SceneDelegate.swift in Sources */,
+				C287E14226162C8700399E0C /* NetworkingManager.swift in Sources */,
+				C287E13F26162C5200399E0C /* SimpsonsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
